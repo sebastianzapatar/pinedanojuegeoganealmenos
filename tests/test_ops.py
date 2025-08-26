@@ -2,7 +2,7 @@ import pytest
 
 from calc.ops import add
 
-@pytests.mark.parametrize(
+@pytest.mark.parametrize(
     "a,b,expected",
     [
         (1,2,3),
